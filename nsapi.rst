@@ -1,10 +1,11 @@
-ns\_api
-=======
+=====
+nsapi
+=====
 
 Query the Dutch railways about your routes, getting info on delays and
 more. See below for the syntax and example output.
 
-|PyPI| |PyPI| |PyPI|
+|PyPI version| |PyPI downloads| |PyPI license|
 
 Installation
 ------------
@@ -14,7 +15,7 @@ From PyPI
 
 Assuming you already are inside a virtualenv:
 
-::
+.. code-block:: bash
 
     pip install nsapi
 
@@ -24,7 +25,7 @@ From Git
 Create a new virtualenv (if you are not already in one) and install the
 necessary packages:
 
-::
+.. code-block:: bash
 
     git clone https://github.com/aquatix/ns-api.git
     cd ns-api
@@ -58,9 +59,9 @@ API <http://www.ns.nl/api/api>`__, you `need to request a
 key <https://www.ns.nl/ews-aanvraagformulier/>`__. Provide a good reason
 and you will likely get it mailed to you (it might take some days).
 
-.. |PyPI| image:: https://img.shields.io/pypi/v/nsapi.svg
+.. |PyPI version| image:: https://img.shields.io/pypi/v/nsapi.svg
    :target: https://pypi.python.org/pypi/nsapi/
-.. |PyPI| image:: https://img.shields.io/pypi/dm/nsapi.svg
+.. |PyPI downloads| image:: https://img.shields.io/pypi/dm/nsapi.svg
    :target: https://pypi.python.org/pypi/nsapi/
-.. |PyPI| image:: https://img.shields.io/github/license/aquatix/ns-api.svg
+.. |PyPI license| image:: https://img.shields.io/github/license/aquatix/ns-api.svg
    :target: https://pypi.python.org/pypi/nsapi/

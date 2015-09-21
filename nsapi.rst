@@ -35,8 +35,7 @@ necessary packages:
 As part of ns-notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Alternatively, follow the installation instructions of
-`ns-notifications <https://github.com/aquatix/ns-notifications>`__,
+Alternatively, follow the installation instructions of `ns-notifications`_,
 which makes extensive use of this library to serve notifications to for
 example a smartphone. The requirements of both packages can be installed
 in the same ``ns-notifications`` one mentioned in the project;
@@ -48,8 +47,7 @@ Example application
 
 For example, I use the library to push notifications about my route to
 my phone through `Pushbullet <http://pushbullet.com>`__. The program I
-use to do this has its own repository:
-`ns-notifications <https://github.com/aquatix/ns-notifications>`__.
+use to do this has its own repository: `ns-notifications`_.
 
 NS API key
 ~~~~~~~~~~
@@ -65,3 +63,4 @@ and you will likely get it mailed to you (it might take some days).
    :target: https://pypi.python.org/pypi/nsapi/
 .. |PyPI license| image:: https://img.shields.io/github/license/aquatix/ns-api.svg
    :target: https://pypi.python.org/pypi/nsapi/
+.. _ns-notifications: https://github.com/aquatix/ns-notifications
